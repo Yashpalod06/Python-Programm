@@ -72,20 +72,7 @@ print(sum)
 print(count)
 
 num=13
-sum=0
-count=0
-bol=True
-for i in range(2,num):
-     if(num%i==0):
-          bol=False
-     else:     
-         for i in range(num,79):
-               if(num%i==0): 
-                    bol=False
-               if(bol==True):
-                    sum+=num
-                    count+=1
-     print(sum)     
+
 
 
 
